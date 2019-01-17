@@ -1,0 +1,26 @@
+.block {
+    display: flex;
+    flex-direction: row;
+}
+
+.block--label {
+    width: var(--label-width);
+    flex: none;
+}
+
+.block--input input {
+    min-width: 170px;
+}
+
+.block--label.isEmpty, .block--info.isEmpty {
+    display: none;
+}
+
+.block--info {
+    width: 100%;
+    font-size: 10px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}

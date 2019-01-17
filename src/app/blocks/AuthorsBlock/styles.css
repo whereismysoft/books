@@ -1,0 +1,23 @@
+.authors {
+    display: flex;
+    flex-direction: row;
+}
+
+.authors--label {
+    width: var(--label-width);
+}
+
+.authors--row {
+    display: flex;
+    flex-direction: row;
+}
+
+.authors--delete {
+    margin-left: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.authors--delete.invisible {
+    display: none;
+}

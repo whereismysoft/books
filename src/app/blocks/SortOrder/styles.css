@@ -1,0 +1,8 @@
+.sort {
+    display: flex;
+    flex-direction: row;
+}
+
+.sort--label {
+    margin-right: 5px;
+}

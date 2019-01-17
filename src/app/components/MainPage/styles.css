@@ -1,0 +1,25 @@
+.main {
+
+}
+
+.main--empty {
+    margin-top: 10px;
+}
+
+.main--books {
+    margin-top: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main--addButton {
+    width: 180px;
+    padding: 5px;
+}
+
+.main--bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

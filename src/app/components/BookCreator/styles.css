@@ -1,0 +1,12 @@
+.creatorBlock--element {
+    margin-bottom: 15px;
+}
+
+.creatorBlock--link {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+}

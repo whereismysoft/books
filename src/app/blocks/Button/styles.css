@@ -1,0 +1,25 @@
+.button {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+}
+
+.button.isDisabled {
+    opacity: 0.6;
+}
+
+.button.isDisabled:hover {
+    color: inherit;
+    background-color: inherit;
+}
+
+
+
