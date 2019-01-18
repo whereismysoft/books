@@ -19,6 +19,10 @@
     object-fit: contain;
 }
 
+.book--authors {
+    max-width: 150px;
+}
+
 .book--remove {
     position: absolute;
     right: 10px;
