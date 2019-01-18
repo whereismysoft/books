@@ -42,8 +42,10 @@ module.exports = {
         ]
     },
     devServer: {
-        inline: false,
+        inline: true,
         // contentBase: path.join(__dirname, 'dist'),
+        // watchContentBase: true,
+        hot: true,
         // filename: path.join(__dirname, '/dist/main.js'),
         publicPath: '/',
         // compress: true,
